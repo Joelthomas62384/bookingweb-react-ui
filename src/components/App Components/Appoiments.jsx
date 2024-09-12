@@ -16,7 +16,7 @@ const Appoiments = () => {
       <div className="w-full max-w-full p-2">
         <ScrollArea className="overflow-x-auto">
           <Table className="min-w-full">
-            <TableCaption>A list of your recent invoices.</TableCaption>
+            <TableCaption>A list of your recent jobs.</TableCaption>
             <TableHeader>
               <TableRow>
                 <TableHead className="whitespace-nowrap">Name</TableHead>
