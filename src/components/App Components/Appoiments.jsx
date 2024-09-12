@@ -12,7 +12,7 @@ import {
 
 const Appoiments = () => {
   return (
-    <div className="w-full flex justify-center border my-8">
+    <div className="w-full flex justify-center border-2 rounded shadow-lg my-8">
       <div className="w-full max-w-full p-2">
         <ScrollArea className="overflow-x-auto">
           <Table className="min-w-full">

@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  date: new Date().toISOString(), // Default to today's date
+  date: new Date().toISOString(),
 };
 
 const AppointmentSlice = createSlice({
@@ -9,7 +9,7 @@ const AppointmentSlice = createSlice({
   initialState,
   reducers: {
     updateDate: (state, action) => {
-      state.date = action.payload; // Expect ISO string format
+      state.date = action.payload; 
     },
   },
 });

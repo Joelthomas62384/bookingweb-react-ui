@@ -22,7 +22,7 @@ const Calender = () => {
           mode="single"
           selected={selectedDate}
           onSelect={setDate}
-          className="rounded-md w-full max-w-md"
+          className="rounded-md w-full max-w-md border-2 shadow-2xl"
         />
       </div>
     </div>

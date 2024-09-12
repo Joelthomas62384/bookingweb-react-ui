@@ -4,7 +4,7 @@ export const FullpersonDetails = () => {
   return (
     <div>
 
-<Table className="min-w-full">
+<Table className="min-w-full shadow-lg border-2 rounded-lg ">
             <TableCaption>A list of your recent invoices.</TableCaption>
             <TableHeader>
               <TableRow>
@@ -14,7 +14,7 @@ export const FullpersonDetails = () => {
                 <TableHead className="whitespace-nowrap text-right">Building Number</TableHead>
                 <TableHead className="whitespace-nowrap text-right">Zone Number</TableHead>
                 <TableHead className="whitespace-nowrap text-right">street Number</TableHead>
-                 <TableHead className="whitespace-nowrap text-right">Assigned Staff Name</TableHead>    //This field will specify the staff Name// 
+                 <TableHead className="whitespace-nowrap text-right">Assigned Staff Name</TableHead>   
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -28,7 +28,7 @@ export const FullpersonDetails = () => {
                 <TableCell>Nikesh staff</TableCell>    
                 <TableCell className="text-right">$250.00</TableCell>
               </TableRow>
-              {/* Add more rows as needed */}
+            
             </TableBody>
           </Table>
 
