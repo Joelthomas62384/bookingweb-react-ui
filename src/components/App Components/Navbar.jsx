@@ -16,7 +16,8 @@ import {
 
 import { ModeToggle } from './ModeToggle';
 import { Button } from '../ui/button';
-import { Cards } from './Cards';
+import Calender from './Calendar';
+import Formss from './Formss';
 
 export default function Navbar() {
     return (
@@ -34,7 +35,7 @@ export default function Navbar() {
                                 <Link to="/" className="px-3 py-2 rounded-md text-sm font-medium transition duration-200 hover:scale-105 hover:text-primary">
                                     Home
                                 </Link>
-                                <Link to="/appointments" className="px-3 py-2 rounded-md text-sm font-medium transition duration-200 hover:scale-105 hover:text-primary">
+                                <Link to="/formss" className="px-3 py-2 rounded-md text-sm font-medium transition duration-200 hover:scale-105 hover:text-primary">
                                     Appointments
                                 </Link>
                                 <Link to="/notifications" className="px-3 py-2 rounded-md text-sm font-medium transition duration-200 hover:scale-105 hover:text-primary">
@@ -48,12 +49,13 @@ export default function Navbar() {
                     <div className='flex items-center gap-5'>
                         <DropdownMenu>
                             <DropdownMenuTrigger asChild>
-                                <Button size="sm">Bookings</Button>
+                                <Button size="sm">Date</Button>
                             </DropdownMenuTrigger>
                             <DropdownMenuContent>
                                 {/* Render the ProfileForm component here */}
                                 {/* <FormComponent /> */}
-                                <Cards/>
+                                {/* <Cards/> */}
+                                <Calender/>
                             </DropdownMenuContent>
                         </DropdownMenu>
                         <ModeToggle />

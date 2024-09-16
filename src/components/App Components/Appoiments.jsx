@@ -12,11 +12,12 @@ import {
 
 const Appoiments = () => {
   return (
-    <div className="w-full flex justify-center border my-8">
+    <div className=" mx-auto flex justify-center border-2 my-8 rounded-lg shadow-xl">
       <div className="w-full max-w-full p-2">
-        <ScrollArea className="overflow-x-auto">
+         <ScrollArea className="overflow-x-auto"> 
+        
           <Table className="min-w-full">
-            <TableCaption>A list of your recent jobs.</TableCaption>
+       
             <TableHeader>
               <TableRow>
                 <TableHead className="whitespace-nowrap">Name</TableHead>
@@ -50,7 +51,7 @@ const Appoiments = () => {
                 <TableCell>965456743</TableCell>
                 <TableCell className="text-right">$150.00</TableCell>
               </TableRow>
-              {/* Add more rows as needed */}
+              
             </TableBody>
           </Table>
         </ScrollArea>
